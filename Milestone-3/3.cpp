@@ -7,33 +7,33 @@ int main(){
 	cin>>r>>c;
 	
 	cout<<"Enter the elements of matrice 1:"<<endl;
-		 for(i=1;i<=r;i++)
-       			for(j=1;j<=c;j++)
-       {
-           cout<<"Enter element a"<<i<<j<<":";
-           cin>>a[i][j];
-       }
+	for(i=1;i<=r;i++)
+       		for(j=1;j<=c;j++)
+		       {
+			   cout<<"Enter element a"<<i<<j<<":";
+			   cin>>a[i][j];
+		       }
 	
 	cout<<"enter the elements of matrice 2:"<<endl;
-		for(i=1;i<=r;i++)
-       			for(j=1;j<=c;j++)
-       {	
-           cout<<"Enter element b"<<i<<j<<":";
-           cin>>b[i][j];
-       }
+	for(i=1;i<=r;i++)
+       		for(j=1;j<=c;j++)
+		       {	
+			   cout<<"Enter element b"<<i<<j<<":";
+			   cin>>b[i][j];
+		       }
 	
-		for(i = 1; i <= r;i++)
-	       		for(j = 1; j <= c;j++)
+	for(i = 1; i <= r;i++)
+	       	for(j = 1; j <= c;j++)
 	            sum[i][j] = a[i][j] + b[i][j];
 		
-		cout<<"sum of the two matrices:"<<endl;
-		for(i=1;i<=r;i++)
-       			for(j= 1;j<=c;j++)
-        {
-            cout<<sum[i][j] << "  ";
-            if(j==c)
-                cout << endl;
-	}
+	cout<<"sum of the two matrices:"<<endl;
+	for(i=1;i<=r;i++)
+       		for(j= 1;j<=c;j++)
+			{
+			    cout<<sum[i][j] << "  ";
+			    if(j==c)
+				cout << endl;
+			}
 		
 	return 0;
 	
