@@ -8,7 +8,7 @@ int main(){
 	
 	cout<<"Enter the elements of matrice 1:"<<endl;
 		 for(i=1;i<=r;i++)
-       		for(j=1;j<=c;j++)
+       			for(j=1;j<=c;j++)
        {
            cout<<"Enter element a"<<i<<j<<":";
            cin>>a[i][j];
@@ -16,8 +16,8 @@ int main(){
 	
 	cout<<"enter the elements of matrice 2:"<<endl;
 		for(i=1;i<=r;i++)
-       		for(j=1;j<=c;j++)
-       {
+       			for(j=1;j<=c;j++)
+       {	
            cout<<"Enter element b"<<i<<j<<":";
            cin>>b[i][j];
        }
