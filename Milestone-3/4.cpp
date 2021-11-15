@@ -9,22 +9,22 @@ int main()
 	cin>>r>>c;
 	
 	cout<<"Enter the elements of matrix:"<<endl;
-		 for(i=1;i<=r;i++)
-       			for(j=1;j<=c;j++)
-       {
-           cout<<"Enter element a"<<i<<j<<":";
-           cin>>a[i][j];
-       }
+	 for(i=1;i<=r;i++)
+       		for(j=1;j<=c;j++)
+		       {
+			   cout<<"Enter element a"<<i<<j<<":";
+			   cin>>a[i][j];
+		       }
        		 
     cout<<"Transpose of given matrix:"<<endl;
-		 for(i=1;i<=r;i++)
-       			for(j=1;j<=c;j++)
-       {
-           cout<<a[j][i];
-           if(j==c)
-                cout << endl;
-       }
-	
+	for(i=1;i<=r;i++)
+       		for(j=1;j<=c;j++)
+			{
+				 cout<<a[j][i];
+				 if(j==c)
+				cout << endl;
+			}
+
     return 0;
 }
 /*Enter the no. of rows and columns in the matrix:3 3
