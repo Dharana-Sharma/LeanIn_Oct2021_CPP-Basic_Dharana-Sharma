@@ -10,7 +10,7 @@ int main()
 	
 	cout<<"Enter the elements of matrix:"<<endl;
 		 for(i=1;i<=r;i++)
-       		for(j=1;j<=c;j++)
+       			for(j=1;j<=c;j++)
        {
            cout<<"Enter element a"<<i<<j<<":";
            cin>>a[i][j];
@@ -18,7 +18,7 @@ int main()
        		 
     cout<<"Transpose of given matrix:"<<endl;
 		 for(i=1;i<=r;i++)
-       		for(j=1;j<=c;j++)
+       			for(j=1;j<=c;j++)
        {
            cout<<a[j][i];
            if(j==c)
