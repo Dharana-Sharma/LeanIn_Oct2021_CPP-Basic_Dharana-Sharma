@@ -28,12 +28,12 @@ int main(){
 		
 		cout<<"sum of the two matrices:"<<endl;
 		for(i=1;i<=r;i++)
-       		for(j= 1;j<=c;j++)
+       			for(j= 1;j<=c;j++)
         {
             cout<<sum[i][j] << "  ";
             if(j==c)
                 cout << endl;
-		}
+	}
 		
 	return 0;
 	
