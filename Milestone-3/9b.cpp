@@ -22,7 +22,7 @@ int main()
 	cout << "enter the size of array:";
 	cin>>size;
     int arr[size],i,element;
-    cout << "\nEnter "<<size<<" elements of array for searching : ";
+    cout << "\nenter "<<size<<" elements of array for searching : ";
     for (i=0;i<size;i++)
         cin >> arr[i];
 
@@ -43,7 +43,7 @@ int main()
 OUTPUT 1-
 enter the size of array:6
 
-Enter 6 elements of array for searching : 1 2 3 4 5 6
+enter 6 elements of array for searching : 1 2 3 4 5 6
 
 enter element to search : 4
 
